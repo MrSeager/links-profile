@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(0, 0%, 8%) !important;
+  overflow-y: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cs-h{
+  min-height: 100vh;
+}
+
+.cs-bg{
+  background-color: hsl(0, 0%, 12%) !important;
+}
+
+.cs-tc{
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.cs-tc-2{
+  color: hsl(75, 94%, 57%) !important;
+}
+
+.cs-fw-4{
+  font-weight: 400 !important;
+}
+
+.cs-fw-6{
+  font-weight: 600 !important;
+}
+
+.cs-fw-7{
+  font-weight: 700 !important;
+}
+
+.cs-w{
+  width: 35% !important;
+}
+
+.cs-btn{
+  background-color: hsl(0, 0%, 20%) !important;
+  transition: .3s !important;
+}
+
+.cs-btn:hover{
+  background-color: hsl(75, 94%, 57%) !important;
+  color: hsl(0, 0%, 8%) !important;
+}
+
+@media (max-width: 921px) {
+  body{
+    overflow-y: auto;
+  }
+
+  .cs-w{
+    width: 90% !important;
+  }
+}
